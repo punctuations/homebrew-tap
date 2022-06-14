@@ -1,1 +1,26 @@
-# typed: false\n# frozen_string_literal: true\n\nclass Blueberry < Formula\n  desc "🫐 A command-line tool for command-line tools."\n  homepage "https://github.com/punctuations/blueberry"\n  version ""\n\n  on_macos do\n    url "https://github.com/punctuations/blueberry/releases/download//blueberry-macos-latest.tar.gz"\n    sha256 "(stdin)= bb02e43d297ce4d27cf99046b1a9d8d17d4c34d1786708270eec64fde4ff827d"\n\n    def install\n      bin.install "blueberry"\n    end\n  end\n\n  on_linux do\n    url "https://github.com/punctuations/blueberry/releases/download//blueberry-ubuntu-latest.tar.gz\n    sha256 "(stdin)= 8e85e71b7b363e8cc318cde6a5ab164992d5b6c3c67e2bcd175744e1762e5896"\n\n    def install\n      bin.install "blueberry"\n    end\n  end\nend
+# typed: false
+# frozen_string_literal: true
+
+class Blueberry < Formula
+  desc "🫐  A command-line tool for command-line tools."
+  homepage "https://github.com/punctuations/blueberry"
+  version "git describe --tags"
+
+  on_macos do
+    url "https://github.com/punctuations/blueberry/releases/download/git describe --tags/blueberry-macos-latest.tar.gz"
+    sha256 "$(openssl sha256 < ./blueberry.tar.gz)"
+
+    def install
+      bin.install "blueberry"
+    end
+  end
+
+  on_linux do
+    url "https://github.com/punctuations/blueberry/releases/download/git describe --tags/blueberry-ubuntu-latest.tar.gz
+    sha256 "$(openssl sha256 < ./blueberry.tar.gz)"
+
+    def install
+      bin.install "blueberry"
+    end
+  end
+end
