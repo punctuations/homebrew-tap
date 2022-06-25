@@ -4,11 +4,11 @@
 class Blueberry < Formula
   desc "🫐  A command-line tool for command-line tools."
   homepage "https://github.com/punctuations/blueberry"
-  version "v1.0.2"
+  version "v1.0.3"
 
   on_macos do
-    url "https://github.com/punctuations/blueberry/releases/download/v1.0.2/blueberry-macos-latest.tar.gz"
-    sha256 "66f9379c724250549251b96dbeb9275847701f7c8a75a89a301e17007063"
+    url "https://github.com/punctuations/blueberry/releases/download/v1.0.3/blueberry-macos-latest.tar.gz"
+    sha256 "d10f017b8a060851f27d5e799b5737cf3885cb9b3734cc6593c5449f7396"
 
     def install
       bin.install "blueberry"
@@ -16,8 +16,8 @@ class Blueberry < Formula
   end
 
   on_linux do
-    url "https://github.com/punctuations/blueberry/releases/download/v1.0.2/blueberry-ubuntu-latest.tar.gz"
-    sha256 "0a70da5e9e08793722ade8d061bd4e5dda57432510cd1e34333ffb42dd97"
+    url "https://github.com/punctuations/blueberry/releases/download/v1.0.3/blueberry-ubuntu-latest.tar.gz"
+    sha256 "1f24dd98632f70002c9ea2ded2fc1874e48be9a752e047309a900356224e"
 
     def install
       bin.install "blueberry"
