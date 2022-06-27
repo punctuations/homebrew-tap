@@ -8,7 +8,7 @@ class Blueberry < Formula
 
   on_macos do
     url "https://github.com/punctuations/blueberry/releases/download/v1.0.4/blueberry-macos-latest.tar.gz"
-    sha256 "6e8a9d86ebff9265ddce3d4403650713e28b98edadd0bd3894d033e9414b"
+    sha256 "1dabfb3a04ba47472a6b0adab42d0c20ac73fcbfcc0f51231c51704ac44b"
 
     def install
       bin.install "blueberry"
@@ -17,7 +17,7 @@ class Blueberry < Formula
 
   on_linux do
     url "https://github.com/punctuations/blueberry/releases/download/v1.0.4/blueberry-ubuntu-latest.tar.gz"
-    sha256 "21db2b27066304d3e74a4ba4c7e089cd17930346e34888c5740366a1810e"
+    sha256 "7dff9cb50cab5f9884b4ff92dac71b44e28b1e91e7c4d0241f4a2f49eab7"
 
     def install
       bin.install "blueberry"
