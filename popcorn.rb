@@ -8,7 +8,7 @@ class Popcorn < Formula
 
   on_macos do
     url "https://github.com/punctuations/popcorn/releases/download/v1.0.6/popcorn-macos-latest.tar.gz"
-    sha256 "8ccbc8fa40e55bfe02bfc8cb1d48c914d16f669a1a23a8fff8639144b24d"
+    sha256 "1d7e5fa989fdc6ae2d314e0e5df3564f1571aaffc92842b6397bf56e8387"
 
     def install
       bin.install "popcorn"
@@ -17,7 +17,7 @@ class Popcorn < Formula
 
   on_linux do
     url "https://github.com/punctuations/popcorn/releases/download/v1.0.6/popcorn-ubuntu-latest.tar.gz"
-    sha256 "1ea64ee7a0984b4af34a8ced5cf2bb004d334f98064b5bd5605c7d2b1969"
+    sha256 "1f16ecbac9e7f185e94d1ae6d3dd3fda25bd0ac871b2df7c30332052aa0f"
 
     def install
       bin.install "popcorn"
