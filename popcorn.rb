@@ -4,11 +4,11 @@
 class Popcorn < Formula
   desc "🍿  A command-line tool for command-line tools."
   homepage "https://github.com/punctuations/popcorn"
-  version "v1.0.6"
+  version "v1.0.7"
 
   on_macos do
-    url "https://github.com/punctuations/popcorn/releases/download/v1.0.6/popcorn-macos-latest.tar.gz"
-    sha256 "ce2e9dd28735d214eaeacb384e8a45f5ae2a290b1161cad0e8352433b0b7"
+    url "https://github.com/punctuations/popcorn/releases/download/v1.0.7/popcorn-macos-latest.tar.gz"
+    sha256 "ab5e4e64d67eb10aec935f6dfd9ca9d040494e1828c609cde209d326abdc"
 
     def install
       bin.install "popcorn"
@@ -16,8 +16,8 @@ class Popcorn < Formula
   end
 
   on_linux do
-    url "https://github.com/punctuations/popcorn/releases/download/v1.0.6/popcorn-ubuntu-latest.tar.gz"
-    sha256 "c0722eb67f639214e8da02d1d02d46e381dc8a6ee1b8af1003b208120ab0"
+    url "https://github.com/punctuations/popcorn/releases/download/v1.0.7/popcorn-ubuntu-latest.tar.gz"
+    sha256 "1f6a8c0871b360b61ce627c37d3c6714dcaecdcb838bd6e3e59dde9617ec"
 
     def install
       bin.install "popcorn"
